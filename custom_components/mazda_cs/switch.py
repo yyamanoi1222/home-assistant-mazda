@@ -53,7 +53,7 @@ class MazdaEnableWindowsSwitch(SwitchEntity):
     def __init__(
         self,
         hass: HomeAssistant,
-        config_entry: ConfigEntry,
+        config_entry: MazdaConfigEntry,
         coordinator: DataUpdateCoordinator,
         index: int,
     ) -> None:
@@ -99,7 +99,7 @@ class MazdaEnableDevSensorsSwitch(SwitchEntity):
     def __init__(
         self,
         hass: HomeAssistant,
-        config_entry: ConfigEntry,
+        config_entry: MazdaConfigEntry,
         coordinator: DataUpdateCoordinator,
         index: int,
     ) -> None:
